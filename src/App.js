@@ -1,14 +1,12 @@
 import React from 'react';
+import Header from './components/Header/Header';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>Our Pricing</h1>
-       <p>[slider switch]</p>
-      </header>
+     <Header />
       <main>
        <h2>Main Content</h2>
        <card>Card</card>
